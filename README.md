@@ -1,10 +1,10 @@
-#  Movie Recommendation System
+#  🎬 Movie Recommendation System
 
 Hệ thống đề xuất phim được xây dựng bằng Python, kết hợp giữa hai phương pháp Content-Based Filtering và Collaborative Filtering nhằm gợi ý phim phù hợp dựa trên dữ liệu người dùng và nội dung phim.
 
 ---
 
-##  Mục tiêu dự án
+## 📈 Mục tiêu dự án
 
 - Phân tích xu hướng thể loại phim theo thời gian.
 - Xây dựng hệ thống đề xuất phim cá nhân hóa.
@@ -42,7 +42,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ---
 
-##  Xây dựng hệ thống đề xuất phim
+##  📝 Xây dựng hệ thống đề xuất phim
 
 ###  Content-Based Filtering
 - Tạo đặc trưng (tags) cho mỗi phim từ `genres`, `keywords`, `cast`, `director`.
@@ -55,7 +55,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ---
 
-##  Kết quả nổi bật
+##  🖥 Kết quả nổi bật
 
 - **Thể loại phổ biến nhất:** Drama
 - **Mối tương quan giữa ngân sách và độ phổ biến:** Pearson ≈ 0.49 → Có tương quan trung bình.
@@ -65,7 +65,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ---
 
-##  Kết luận
+## 📋 Kết luận
 
 - Kết hợp cả hai phương pháp giúp tăng độ chính xác đề xuất.
 - Ngân sách ảnh hưởng đến độ phổ biến, nhưng không phải yếu tố quyết định.
@@ -73,7 +73,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ---
 
-##  Thư viện sử dụng
+## 🏫 Thư viện sử dụng
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - scikit-learn
@@ -82,7 +82,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ---
 
-## 📎 Đề xuất mở rộng
+## 📬 Đề xuất mở rộng
 
 - Tích hợp thêm mô tả nội dung phim (overview).
 - Dùng word embedding hoặc deep learning để cải thiện đặc trưng phim.
